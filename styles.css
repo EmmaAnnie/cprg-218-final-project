@@ -64,6 +64,14 @@ section{
     margin: 1rem;
 }
 
+#paradise{
+    grid-column: span 2;
+}
+
+#experience{
+    grid-row: span 2;
+}
+
 
 
 
@@ -71,5 +79,11 @@ section{
     main{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    #paradise{
+        grid-column: span 1;
+    }
+    #experience{
+        grid-row: span 1;
     }
 }
