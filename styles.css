@@ -72,6 +72,24 @@ section{
     grid-row: span 2;
 }
 
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #edbdbe;
+    border: none;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+button a:hover{
+    color: #f7f4ef;
+}
+
 
 
 
