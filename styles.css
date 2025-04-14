@@ -5,11 +5,13 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #81cede;
+    margin: 0;
     
 }
 
 header{
     display: block;
+    color: #f7f4ef;
     background-image: url('Final\ Website\ Media/hero2.jpg');
     padding: 1rem;
     position: relative;
@@ -17,8 +19,7 @@ header{
     justify-content: center;
     text-align: center;
     margin: 0;
-    margin-bottom: 1rem;
-   /* border: 3px solid #f7f4ef;*/
+
 }
 
 nav{
@@ -49,10 +50,11 @@ nav{
 }
 
 main{
+    display: grid;
     background-color: #c3e8eb;
     border: 3px solid #f7f4ef;
     padding: 1rem;
-    margin: 1.5rem;
+    margin: 2rem;
 }
 
 section{
