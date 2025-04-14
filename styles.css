@@ -11,6 +11,7 @@ body{
 
 header{
     display: block;
+    color: white;
     background-image: url('Final\ Website\ Media/hero2.jpg');
     padding: 1rem;
     position: relative;
