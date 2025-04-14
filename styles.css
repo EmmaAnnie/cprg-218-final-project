@@ -51,6 +51,7 @@ nav{
 
 main{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #c3e8eb;
     border: 3px solid #f7f4ef;
     padding: 1rem;
@@ -61,4 +62,14 @@ section{
     background-color: #f7f4ef;
     padding: 1rem;
     margin: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 650px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
