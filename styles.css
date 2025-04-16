@@ -75,6 +75,11 @@ section{
     grid-row: span 2;
 }
 
+img{
+    max-width: fit-content;
+    max-height: auto;
+}
+
 button{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #edbdbe;
