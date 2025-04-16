@@ -76,8 +76,8 @@ section{
 }
 
 img{
-    max-width: 400px;
-    max-height: auto;
+    width: 400px;
+    height: auto;
 }
 
 button{
