@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #81cede;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+
+}
+
+header{
+    display: block;
+    color: white;
+    background-image: url('Final\ Website\ Media/hero2.jpg');
+    max-width: 150%;
+    max-height: auto;
+    background-color: aqua;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    border: 3px solid #f7f4f7;
+    text-align: center;
+    align-items: center;
+}
+
+header nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+#main-menu li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+#main-menu li a:hover{
+    color: #f7f4ef;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #c3e8eb;
+    margin: 2rem;
+    padding: 1rem;
+    border: 3px solid #f7f4ef;
+}
+
+blockquote{
+    background-color: #f7f4ef;
+    padding: 1rem;
+}
+
+main p:last-of-type{
+    grid-column: span 2;
+}
+
+
+
+@media screen and (max-width: 650px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main p:last-of-type{
+        grid-column: span 1;
+    }
+}
