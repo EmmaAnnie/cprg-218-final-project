@@ -20,7 +20,7 @@ header{
     text-align: center;
 }
 
-#nav-toggle{
+/*#nav-toggle{
     background: none;
     border: none;
     color: #f7f4ef;
@@ -33,7 +33,7 @@ header{
 #nav-toggle :focus{
     color: black;
     border: 1px solid black;
-}
+}*/
 
 header nav{
     display: flex;
@@ -83,7 +83,7 @@ main p:last-of-type{
 
 
 @media screen and (max-width: 650px){
-    #nav-toggle{
+   /* #nav-toggle{
         display: block;
     }
     nav{
@@ -106,7 +106,7 @@ main p:last-of-type{
     nav li a{
         display: block;
         padding: 1rem;
-    }
+    }*/
 
     main{
         display: grid;
