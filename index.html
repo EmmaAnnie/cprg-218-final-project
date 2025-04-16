@@ -13,6 +13,8 @@
         <img src="Final Website Media/logo.svg" alt="logo">
         <h1>Your Dream Getaway</h1>
 
+        <button id="nav-toggle">&#9776;</button>
+
         <nav id="main-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -97,5 +99,12 @@
             </button>
         </section>
     </main>
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const menuList = document.getElementById('main-menu');
+        navToggle.addEventListener('click', function(){
+            menuList.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
