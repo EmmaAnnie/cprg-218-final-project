@@ -76,7 +76,7 @@ section{
 }
 
 img{
-    max-width: fit-content;
+    max-width: 400px;
     max-height: auto;
 }
 
