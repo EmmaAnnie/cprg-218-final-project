@@ -62,6 +62,11 @@ section{
     margin: 1rem; 
 }
 
+img{
+    width: 350px;
+    height: auto;
+}
+
 
 
 @media screen and (max-width: 650px){
