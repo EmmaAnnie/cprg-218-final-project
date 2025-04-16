@@ -29,6 +29,20 @@ header img{
     width: auto;
 }
 
+#nav-toggle{
+    background: none;
+    border: none;
+    color: #f7f4ef;
+    font-size: 150%;
+    cursor: pointer;
+    justify-content: right;
+    align-items: right;
+}
+#nav-toggle :focus{
+    color: black;
+    border: 1px solid black;
+}
+
 nav{
     border: 3px solid #f7f4ef;
     display: flex;
@@ -107,6 +121,30 @@ button a:hover{
 
 
 @media screen and (max-width: 650px){
+    #nav-toggle{
+        display: block;
+    }
+    nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        background-color: #f7f4ef;
+        flex-direction: column;
+        display: none;
+    }
+    nav.active{
+        display: block;
+    }
+    nav li{
+        display: block;
+        text-align: center;
+    }
+    nav li a{
+        display: block;
+        padding: 1rem;
+    }
     main{
         display: grid;
         grid-template-columns: 1fr;
