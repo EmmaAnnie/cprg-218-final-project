@@ -25,6 +25,10 @@ header{
 
 }
 
+header img{
+    width: auto;
+}
+
 nav{
     border: 3px solid #f7f4ef;
     display: flex;
