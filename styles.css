@@ -13,6 +13,9 @@ header{
     display: block;
     color: white;
     background-image: url('Final\ Website\ Media/hero2.jpg');
+    background-repeat: no-repeat;
+    max-width: 150%;
+    max-height: auto;
     padding: 1rem;
     position: relative;
     align-items: center;
