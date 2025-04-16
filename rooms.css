@@ -20,7 +20,7 @@ header{
     text-align: center;
 }
 
-#nav-toggle{
+/*#nav-toggle{
     background: none;
     border: none;
     color: #f7f4ef;
@@ -33,16 +33,16 @@ header{
 #nav-toggle :focus{
     color: black;
     border: 1px solid black;
-}
+}*/
 
-header nav{
+#main-menu{
     display: flex;
     border: 3px solid #f7f4f7;
     text-align: center;
     align-items: center;
 }
 
-header nav li{
+#main-menu li{
     list-style-type: none;
     display: inline-block;
     margin-right: 1.5rem;
@@ -86,10 +86,10 @@ img{
 
 
 @media screen and (max-width: 650px){
-    #nav-toggle{
+   /* #nav-toggle{
         display: block;
     }
-    nav{
+    #main-menu{
         position: absolute;
         top: 100%;
         left: 0;
@@ -109,7 +109,7 @@ img{
     nav li a{
         display: block;
         padding: 1rem;
-    }
+    }*/
 
     main{
         display: grid;
